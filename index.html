@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="success.html" method="GET">
+    <label>Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label>Mobile:</label>
+    <input type="text" name="mobile" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    <label>Department:</label>
+    <select name="department" required>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>MECH</option>
+        <option>CIVIL</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
